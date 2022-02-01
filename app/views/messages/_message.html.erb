@@ -2,7 +2,7 @@
   <div class="message-info">
     <div class="user-name">
       <!-- 投稿したユーザー名情報を出力する -->
-      SABA
+      <%= message.user.name%>
     </div>
     <div class="time">
       <!-- 投稿した時刻を出力する -->
@@ -11,6 +11,6 @@
   </div>
   <div class="message-content">
     <!-- 投稿したメッセージ内容を記述する -->
-    おつかれさま
+    <%= message.content %>
   </div>
 </div>
